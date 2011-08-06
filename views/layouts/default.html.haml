@@ -17,8 +17,8 @@
     -# Pull in the page title
     %title= @title
   
-    %meta{:name => "description", :content => ""}
-    %meta{:name => "author", :content => ""}
+    %meta{:name => "description", :content => "Ben Hughes - Ruby Developer, Traveling Nomad, and Pianist"}
+    %meta{:name => "author", :content => "Ben Hughes"}
 
     -# Mobile viewport optimized: j.mp/bplateviewport
     -# disabled because I think it does some funky stuff -- @nathos
@@ -41,14 +41,15 @@
   %body
     .container
       %header 
-        %h1= @title
+        %h1 Ben Hughes
+        %h2 Ruby Developer, Traveling Nomad, Pianist
         
       #main-content{:role => "main"}
     
         = yield
 
       %footer
-        %p &copy; #{copyright_years(2011)} ServeBootstrapUser
+        %p &copy; #{copyright_years(2011)} Ben Hughes
         
     -# JavaScript at the bottom for fast page loading
 

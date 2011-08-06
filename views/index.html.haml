@@ -1,0 +1,114 @@
+%section#introduction
+  %p
+    I'm a software developer in San Diego working with Ruby to build web applications. I'm serious about idiomatic, architecturally sound, and well-tested software. 
+  %p
+    When I'm not writing software, I enjoy #{link_to "traveling", "http://jettingrubyist.com/"}, playing tennis, #{link_to "dabbling in jazz piano", "/music"}, and #{link_to "thinking about economics", "http://www.positiveexternality.com/"}.
+
+%section#social
+  %ul
+    %li GitHub
+    %li Twitter
+    %li Facebook
+    %li LinkedIn
+    %li Foursquare
+
+%section#projects
+  %h1 Developing
+  %article
+    %h2= link_to "Jazzity - The Jazz Knowledge Engine", "http://www.jazzity.com/"
+    Jazzity is a knowledge engine and community for jazz with full understanding of Jazz theory. 
+    Explore chord-scale relationships, analyze a chord progression, and discuss what you've been learning with other musicians.
+  %article
+    %h2= link_to "Coworking Nomads", "http://www.coworkingnomads.com/"
+    %cite= link_to "Open Source on GitHub", "https://github.com/rubiety/coworking_nomads"
+    A web application for facilitating ad-hoc coworking among independent workers at free venues around town.
+  %article
+    %h2= link_to "Claim Critic", "http://www.claimcritic.com/"
+    Semantic comment threading on steroids.
+  %article
+    %h2= link_to "Ruby Scribe", "https://github.com/rubiety/ruby_scribe"
+    An smart AST pretty-printer that generates nicely-formatted ruby source code given Ruby S-expressions, such as those parsed via ruby_parser.
+    Approximates real code-formatting conventions established in the community with a small parser/deparser diff against the Rails codebase.
+  %article
+    %h2= link_to "Message Block", "http://github.com/rubiety/message_block"
+    A replacement for error_messages_for that combines model errors and flash messages and is much more powerful/flexible.
+  %article
+    %h2= link_to "Has Meta Data", "http://github.com/rubiety/has_meta_data"
+    Allows for your ActiveRecord models to have associated meta data without a separate model - primarily useful with STI classes to somewhat emulate Class Table Inheritance.
+  %article
+    %h2= link_to "Has Draft", "http://github.com/rubiety/has_draft"
+    Allows for your ActiveRecord models to have "drafts" which are stored in a separate duplicate table that can be edited without affecting the "live" copy.
+  %article
+    %h2= link_to "Micro Sessions", "http://github.com/rubiety/micro_sessions"
+    Sessions within a session indexed by a key.
+  %article
+    %h2= link_to "RSpecify", "http://github.com/rubiety/rspecify"
+    Converts your Test::Unit (or minitest) tests with the help of ruby_parser, a series of AST transformations, and ruby_scribe.
+
+%section#blogs
+  %h1 Writing
+
+  %section
+    %h2= link_to "Code Colossus", "http://www.codecolossus.com/"
+    %p Software craftsmanship with Ruby.
+
+    %article
+      %h3= link_to "Using ActiveModel::Name to simplify URL generation", "#"
+      %p Most Rails developers are familiar with generating RESTful URLs polymorphically by simply passing an object to one of many helper methods that expects a URL...
+    %article
+      %h3= link_to "Using ActiveModel::Name to simplify URL generation", "#"
+      %p Most Rails developers are familiar with generating RESTful URLs polymorphically by simply passing an object to one of many helper methods that expects a URL...
+    %article
+      %h3= link_to "Using ActiveModel::Name to simplify URL generation", "#"
+      %p Most Rails developers are familiar with generating RESTful URLs polymorphically by simply passing an object to one of many helper methods that expects a URL...
+    
+  %section
+    %h2= link_to "Positive Externality", "http://www.positiveexternality.com/"
+    %p Tradeoffs, marginal costs, externalities, and rational thinking.
+
+    %article
+      %h3= link_to "Taking Advantage of Resource Contention Inconstancy", "#"
+      %p Most members of society mostly lives their lives in-sync.  Everyone wakes up and drives to work between 6 and 9AM...
+    %article
+      %h3= link_to "Taking Advantage of Resource Contention Inconstancy", "#"
+      %p Most members of society mostly lives their lives in-sync.  Everyone wakes up and drives to work between 6 and 9AM...
+    %article
+      %h3= link_to "Taking Advantage of Resource Contention Inconstancy", "#"
+      %p Most members of society mostly lives their lives in-sync.  Everyone wakes up and drives to work between 6 and 9AM...
+    
+%sections#presentations    
+  %h1 Presenting
+
+  %section
+    %h2= link_to "The Ruby Idiom", "http://www.scribd.com/doc/53627636/The-Ruby-Idiom"
+    %cite BarCamp Rochester - Spring 2011
+    %p An overview of some of the unique features of the Ruby language and why Rubyists are so passionate about their craft. 
+  %section
+    %h2= link_to "World Traveling on a Shoestring Budget", "http://www.scribd.com/doc/53627690/Inexpensive-World-Traveling"
+    %cite BarCamp San Diego - Winter 2011
+    %p 
+      Traveling doesn't have to be expensive - I cover tips and tricks for traveling internationally on a shoestring budget based on my recent experience 
+      traveling 54,000 miles around the world for two months.
+  %section
+    %h2= link_to "Refactoring ActiveRecord Models", "http://sdruby.org/podcast/94"
+    %cite SDRuby - February 3, 2011
+    %p It's always important to keep your ActiveRecord models in tip-top shape. I explore several techniques for refactoring models and preventing them from getting out of hand.
+  %section
+    %h2= link_to "Message Block &amp; Testing Gems with Cukigem", "/files/presentations/message_block.pdf"
+    %cite SDRuby - December 2, 2010
+    %p Showing one of my gems, message_block, and how I went about testing it using a host rails application with the help of Cucumber and Cukigem.
+  %section
+    %h2= link_to "Testing with Cucumber", "/files/presentations/cucumber.pdf"
+    %cite (Rochester.rb - July 22, 2010)
+    %p Overview of Cucumber for behavior testing and using Pickle.
+  %section
+    %h2= link_to "Ruby Elegance", "/files/presentations/ruby_elegance.pdf"
+    %cite BarCamp Rochester 3 - 2008 and BarCamp Rochester 4 - 2009
+    %p 
+      Prepared this 30 minute overview of the Ruby language with an emphasis on its elegant features.  
+      Also covers several open source libraries/DSLs clearly showing what kind of elegant software can be built from Ruby's dynamism.
+  %section
+    %h2= link_to "Ruby on Rails: An Introduction", "/files/presentations/ror_introduction.pdf"
+    %cite RIT Web Developers Club - January 14, 2008
+    %p Gave a lengthy Ruby on Rails introduction presentation to the RIT Web Developers Club, attempting to cover the major concepts in Rails.  
+

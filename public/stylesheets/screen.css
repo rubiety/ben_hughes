@@ -229,11 +229,6 @@ body {
   background: url(../images/patterns/black_linen.png);
 }
 
-.container {
-  overflow: hidden;
-  *zoom: 1;
-}
-
 header {
   width: 960px;
   margin: 0 auto;

@@ -9,7 +9,7 @@ gem 'serve', '1.5.1'
 gem 'compass'
 
 # Compass plugins
-# gem 'compass-960-plugin' # 960.gs
+gem 'compass-960-plugin' # 960.gs
 # gem 'compass-susy-plugin' # Susy
 
 # Markdown and Textile
@@ -18,6 +18,7 @@ gem 'rdiscount' # Markdown
 
 # Other templating languages
 gem 'haml'
+
 # gem 'erubis'
 # gem 'slim'
 # gem 'radius'

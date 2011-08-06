@@ -31,18 +31,23 @@ header
 
 #main-content
   +grid(12)
-  .content
+  +clearfix
+  
+  #social
     +grid(9)
-    // mixin +alpha if a nested element is the first in a row
     +alpha
-  .sidebar
+  #contact
     +grid(3)
-    // mixin +omega if a nested element is the last in a row
-    +omega
-  .content-full
-    +grid(12)
     +alpha
-    +omega
+  #projects
+    clear: left
+    +grid(6)
+    +alpha
+  #blogs
+    +grid(6)
+    +alpha
+  #presentations
+    clear: left
 
 footer
   +grid(12)

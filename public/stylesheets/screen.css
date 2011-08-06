@@ -223,10 +223,78 @@ table {
   border-spacing: 0;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+header {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+
+#main-content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+  overflow: hidden;
+  *zoom: 1;
+}
+#main-content #social {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+  margin-left: 0;
+}
+#main-content #contact {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 0;
+}
+#main-content #projects {
+  clear: left;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-left: 0;
+}
+#main-content #blogs {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-left: 0;
+}
+#main-content #presentations {
+  clear: left;
+}
+
+footer {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+
 body {
   margin: 0 auto;
-  min-width: 300px;
-  max-width: 600px;
   padding: 15px 150px;
 }
 

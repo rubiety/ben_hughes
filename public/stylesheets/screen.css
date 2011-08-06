@@ -326,11 +326,11 @@ header h2 {
   margin-bottom: 15px;
 }
 #main-content #introduction h1 {
-  font-size: 2.4em;
+  font-size: 2.2em;
   font-weight: normal;
 }
 #main-content #introduction p {
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.5em;
 }
 #main-content #introduction p:first-child {
@@ -377,6 +377,10 @@ header h2 {
 #main-content #introduction ul#social li img {
   float: left;
   margin-right: 5px;
+}
+#main-content #introduction ul#social li a {
+  text-decoration: none;
+  font-weight: bold;
 }
 #main-content #projects {
   clear: left;

@@ -290,11 +290,13 @@ header h2 {
 }
 #main-content section .grouping {
   padding: 8px;
-  background: #eeeeee;
-  -moz-box-shadow: inset 1px 1px 2px 0 #aaaaaa;
-  -webkit-box-shadow: inset 1px 1px 2px 0 #aaaaaa;
-  -o-box-shadow: inset 1px 1px 2px 0 #aaaaaa;
-  box-shadow: inset 1px 1px 2px 0 #aaaaaa;
+  background: #e0e0e0;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
 }
 #main-content section article {
   margin-bottom: 10px;

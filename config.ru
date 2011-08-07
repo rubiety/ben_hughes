@@ -13,6 +13,17 @@ end
 require 'serve'
 require 'serve/rack'
 
+# Configure Haml a bit
+require 'haml'
+
+class Haml::Engine
+  alias old_initialize initialize
+  def initialize(lines, options)
+    options.update(:format => :html5, :attr_wrapper => '"')
+    old_initialize(lines, options)
+  end
+end
+
 # The project root directory
 root = ::File.dirname(__FILE__)
 

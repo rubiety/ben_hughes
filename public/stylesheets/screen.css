@@ -251,8 +251,8 @@ header h2 {
 
 #main-content {
   background: #cccccc;
-  padding: 10px;
-  width: 940px;
+  padding: 15px;
+  width: 930px;
   margin: 0 auto;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -385,12 +385,12 @@ header h2 {
 #main-content #projects {
   clear: left;
   float: left;
-  width: 460px;
+  width: 455px;
   margin-right: 10px;
 }
 #main-content #blogs {
   float: left;
-  width: 460px;
+  width: 455px;
   margin-left: 10px;
 }
 #main-content #blogs article h2 {

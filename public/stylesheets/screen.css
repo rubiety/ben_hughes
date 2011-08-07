@@ -228,10 +228,6 @@ body {
   background: url(../images/patterns/black_linen.png);
 }
 
-.container {
-  min-width: 1000px;
-}
-
 header {
   width: 960px;
   margin: 0 auto;

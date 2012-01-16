@@ -415,7 +415,9 @@ header h2 {
   font-style: italic;
 }
 #main-content #presentations {
-  clear: left;
+  float: left;
+  width: 455px;
+  margin-left: 10px;
   padding-top: 15px;
 }
 

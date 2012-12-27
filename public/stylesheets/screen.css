@@ -238,13 +238,13 @@ header {
 header h1 {
   margin: 6px 0 0 0;
   padding: 0 0 0 90px;
-  font-size: 3em;
+  font-size: 4em;
   text-shadow: #333333 0 0 4px;
 }
 header h2 {
   margin: 2px 0 14px 0;
   padding: 0 0 0 90px;
-  font-size: 1.3em;
+  font-size: 1.6em;
   text-shadow: #333333 0 0 4px;
 }
 

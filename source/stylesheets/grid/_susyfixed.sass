@@ -1,0 +1,44 @@
+// 
+// Fixed-width Susy Grid System
+// 
+
+$show-grid-backgrounds: true
+
+@import "susy"
+
+// For full Susy documentation, visit: http://susy.oddbird.net/tutorial/
+
+
+// Define grid constants. These can be customized for each breakpoint: 
+$total-columns      : 12
+// You can use ems, px or % to override these defaults:
+$column-width       : 60px
+$gutter-width       : 20px
+$grid-padding       : 10px
+
+body
+  min-width: 960px
+  
+// We have to add these mixins again to use our redefined grid constants.
+.container
+  // mixin +container if this element will contain a grid system
+  +container
+  // gives us our background stripes for development.
+  +susy-grid-background
+
+header, #main-content, footer
+  // mixin +full for a full grid width row - it's a shortcut!
+  +clearfix
+
+.features
+  +span-columns(9, 12)
+  .views-layouts
+    +span-columns(3, 9)
+  .stylesheets-sass-compass
+    +span-columns(3, 9)
+  .compass-plugins
+    +span-columns(3 omega, 9)
+
+.moreinfo
+  +span-columns(3 omega, 12)
+

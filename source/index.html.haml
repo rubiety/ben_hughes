@@ -1,14 +1,14 @@
 - @title = "Ben Hughes: San Diego Ruby Developer, Travel Hacker, Economics Nerd"
 
 %section#introduction
-  = image_tag "/images/mug.png", :id => "mug"
+  = image_tag "/images/mug.jpg", :id => "mug"
 
   %h1
-    I build web applications using Ruby.
+    I #{link_to "build web applications", "http://rubidiom.com"} with Ruby and CoffeeScript.
   %p
     When I'm not writing software, I also enjoy #{link_to "traveling", "http://travel.benhughes.name/"}, 
     playing tennis, noodling around with jazz piano, 
-    and #{link_to "thinking about economics", "http://www.positiveexternality.com/"}.
+    and thinking about economics.
 
   %ul#social
     %li
@@ -50,9 +50,6 @@
       %h2= link_to "Jazzity - The Jazz Knowledge Engine", "http://www.jazzity.com/"
       %p A knowledge engine and community for jazz theory.
     %article
-      %h2= link_to "Claim Critic - Semantic Debate", "http://www.claimcritic.com/"
-      %p A powerful commenting engine tailored for reasoned debate.
-    %article
       %h2= link_to "Ruby Scribe", "https://github.com/rubiety/ruby_scribe"
       %p An intelligent AST pretty-printer that generates nicely-formatted Ruby source code given Ruby S-expressions.
     %article
@@ -79,21 +76,21 @@
 
   %div.grouping
     %article
-      %h2= link_to "Nomadic Travels Photo Blog", "http://travel.benhughes.name/"
-      %p
-        Thoughts, photos, and videos from my travel experiences.
-    %article
       %h2= link_to "Flight Leverage", "http://www.flightleverage.com/"
       %p
         Techniques in Travel Hacking
     %article
+      %h2= link_to "Nomadic Travels Photo Blog", "http://travel.benhughes.name/"
+      %p
+        Thoughts, photos, and videos from my travel experiences.
+    %article
       %h2= link_to "Code Colossus", "http://www.codecolossus.com/"
       %p
-        Software craftsmanship with Ruby
+        On Software
     %article
       %h2= link_to "Positive Externality", "http://www.positiveexternality.com/"
       %p
-        Tradeoffs, marginal costs, externalities, and rational thinking
+        Tradeoffs, marginal costs, externalities, and non-intuitive thinking
     
 %section#presentations    
   %h1 Presenting:

@@ -100,15 +100,3 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-###
-# Deploy
-###
-
-activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.user = "apps"
-  deploy.host = "benhughes.name"
-  deploy.port = 2234
-  deploy.path = "/var/www/benhughes.name/current"
-end
-

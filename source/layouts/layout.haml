@@ -11,26 +11,23 @@
 
     -# Pull in the page title
     %title= @title
-  
+
     %meta{:name => "description", :content => "Ben Hughes - San Diego Ruby Developer, Travel Hacker, Economics Nerd"}
     %meta{:name => "author", :content => "Ben Hughes"}
-  
     %meta{:name => "viewport", :content => "width=device-width"}
-
-    -# Place favicon.ico and apple-touch-icon.png in the root directory
 
     = stylesheet_link_tag "screen"
     = javascript_include_tag "libs/modernizr-2.6.1.min"
 
   %body{:class => "#{@bodyclass}"}
     /[if lt IE 7]
-      %p.chromeframe 
+      %p.chromeframe
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
     .container
       %header
         %h1 Ben Hughes
         %h2 Ruby Developer, Travel Hacker, Economics Nerd
-        
+
       #main-content{:role => "main"}
         %a{:href => "http://github.com/rubiety"}
           %img{:style => "position: absolute; top: 0; right: 0; border: 0;", :src => "https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png", :alt => "Fork me on GitHub"}
@@ -38,7 +35,7 @@
 
       %footer
         %p &copy; #{copyright_years(2011)} Ben Hughes
-        
+
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
     :javascript
       window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.8.2.min.js"><\/script>')
